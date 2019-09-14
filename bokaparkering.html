@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta  name="viewport" content="width=device-width, initial-scale=1" >
+    <title>Title</title>
+
+    <link rel="stylesheet" type="text/css" href="deluxe.css">
+</head>
+<body>
+<script type="text/javascript" src="email.js"></script>
+<div class="header">
+    <div class="logo">Deluxe Parkering <span class="responsive_menu">&Congruent;</span></div>
+    <div class="menu_list">
+        <a href="index.html" class="menu"><span class="menu" >Start</span></a>
+        <a href="bokaparkering.html" class="menu"><span class="menu">Boka parkering</span></a>
+        <a href="varaovrigatjanster.html" class="menu"><span class="menu">Våra övriga tjänster</span></a>
+        <a href="hittatilloss.html" class="menu"><span class="menu">Hitta till oss</span></a>
+        <a href="kontakt.html" class="menu"><span class="menu">Kontakt</span></a>
+        <a href="omsedan.html" class="menu"><span class="menu">0m hemsida</span></a>
+    </div>
+</div>
+
+<div class="content">
+
+
+
+    <div >
+        <div id="booking">
+
+            <div id="booking_title">Boka</div>
+
+            <form action="http://primat.se/services/sendform.aspx?recipient=danni.ayette@gmail.com" method="post" enctype="text/plain" >
+
+            <div>
+              <input  name="first_name" type="text" class="user_input" placeholder="First name">
+            </div>
+            <span>
+                <input name="last_name" type="text" class="user_input"  placeholder="Last name">
+            </span>
+                <label for="user_end">
+                <input type="date" name="user_date" value="2000-01-01" id="user_end"  class="user_end" >
+                </label>
+                <label for="user_start">
+                <input type="date" value="2000-01-01" name="end_date"  id="user_start"  class="user_end" >
+                </label>
+            <label for="car_type">
+            <select  id="car_type" class="user_end"  name="car_type">
+                <option id="volvo">Volvo 587v</option>
+                <option id="man_1789" >Man 784v</option>
+                <option id="mazda_viper">Mazda viper</option>
+                <option id="gosh">Gosh G</option>
+            </select>
+            </label>
+
+            <div><input name="address" type="text" class="user_input"  placeholder="Address"></div>
+            <div><input name="email" type="email" class="user_input"  placeholder="Email"></div>
+            </form>
+            <div>
+                <input  type="submit"  id="submit_info"   value="Submit" >
+            </div>
+
+        </div>
+
+
+
+        <div >
+            <div class="img_packing_1"></div>
+        </div>
+    </div>
+
+    <p class="para_title">  Boka Parkering</p>
+    <div class="word">
+
+
+        ​Välj "Område" eller "Nära till" här i menyraden nedan.
+
+
+
+
+        Då får du fram en lista med våra besöksparkeringar i området, med taxor, öppettider m.m. I många av våra anläggningar har vi platser för rörelsehindrade, dessa är dock avgiftsbelagda till skillnad från gatuparkeringen.
+
+
+
+
+
+        Samtliga taxor är inkl. moms.
+    </div>
+
+</div>
+<footer class="footer">&copy; Dan Technology</footer>
+</body>
+</html>
